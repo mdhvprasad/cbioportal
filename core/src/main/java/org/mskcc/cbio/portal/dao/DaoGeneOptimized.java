@@ -99,7 +99,7 @@ public class DaoGeneOptimized {
                 disambiguousGenes.put(parts[0], gene);
             }
             in.close();
-        } catch(IOException e) {
+        } catch(Exception e) {
             e.printStackTrace();
         }
     }
